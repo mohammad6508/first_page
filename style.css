@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    
+    
+
+}
+.menu_bar{
+
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:black;
+    color: white;
+    
+    
+}
+.logo{
+    width: 380px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+}
+.logo a:hover{
+    color: orangered;
+}
+
+.home ul li{
+    display: inline-block;
+    
+}
+.home ul li a{
+    padding: 10px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.home ul li a:hover{
+    color: orangered;
+}
+.icon i{
+    padding: 10px 16px;
+    display: inline-block;
+    color: white;
+}
+.icon i:hover{
+    color: orangered;
+}
+.banner{
+    background: url(011.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+
+
+
+}
+.dark_mode{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(23, 24, 25, .8)
+
+}
+.banner_title{
+    width: 730px;
+    margin: auto;
+    text-align: center;
+    padding: 160px 0;
+    color: white;
+   
+
+}
+.banner_title h1{
+ font-size: 48px; 
+ text-transform: uppercase;
+}
+.banner_title h6{
+    font-size: 22px;
+    color: grey;
+    line-height: 80px;
+}
+.banner_title a{
+    text-decoration: none;
+    
+    color:white;
+    padding: 14px 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    letter-spacing: 0.5px;
+    margin-top: 1rem;
+    
+
+}
+.banner_title .btn{
+    color: orangered;
+}
+
+
+.btn_a{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.btn_a:hover{
+    color: orangered;
+}
+.banner_title .btn{
+    border: 1px solid orangered;
+    padding: 14px 24px;
+    font-size: 14px;
+
+}
+.btn:hover{
+    background: white;
+    border-color: transparent;
+    color: orangered;
+}
+
+#container{
+   
+    width: 100%;
+    padding: 5rem 0;
+    background-color: black;
+    color: white;
+
+}
+.workingcost{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-evenly;
+  
+}
+.fastdiv_workcost{
+    width: 475px;
+   
+    padding: 40px 0;
+}
+.working_hours{
+    width: 350px;
+    height: 330px;
+    padding-top: 30px;
+    padding-left: 40px;
+    border-left: 2px solid gray;
+}
+.working_hours h2{
+    font-size: 36px;
+    padding-bottom: 0px ;
+}
+.working_hours h4{
+    
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 2;
+}
+.working_hours p{
+    color: #c3c3c3;
+}
+.fastdiv_workcost h2{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 1rem;
+
+}
+.fastdiv_workcost h6{
+    font-size: 22px;
+    font-weight: normal;
+    
+}
+.fastdiv_workcost p{
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: grey;
+    padding: 50px 0;
+    
+}
+.fastdiv_workcost a{
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 14px;
+    width: 100%;
+    padding: 14px 24px;
+    border: 1px solid transparent;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+}
+.fastdiv_workcost a:hover{
+    background: white;
+    background-color: white;
+    color:orangered;
+
+}
+#section_about{
+    width: 1123px;
+    margin: auto;
+    
+}
+.social_icon ul li {
+    list-style-type: none;
+}
+.social_icon{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social_icon i{
+    padding: 10px;
+}
+
+.about_container{
+    width: 100%;
+    display: flex;
+    
+    margin-top: 20px;
+
+    
+         
+ }
+ #section_about{
+     padding-top:80px ;
+ }
+.text_about{
+    width: 475px;
+    margin: auto;
+}
+.text_about h2{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 8px;
+
+}
+.text_about p{
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 8px;
+}
+.img_about{
+    width: 255px;
+    margin-right: 17px;
+    
+    
+}
+.img_about img{
+    width: 100%;
+    
+}
+.Fitness{
+    float: left;
+    width: 50%;
+}
+.Fitness h3{
+    padding: 10px 0;
+    font-size: 28px;
+}
+#clasess_section{
+    width: 100%;
+    margin: 200px auto;
+}
+.heading_clsses{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading_clsses h6{
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 8px;
+}
+.heading_clsses h2{
+    font-size: 36px;
+}
+.training_class{
+    width: 1140px;
+    
+    margin: auto;
+    display: flex;
+}
+.img_clss{
+    width: 380px;
+    margin-right: 27px;
+}
+.imgtrainer img{
+    width: 350px;
+    
+}
+.clss_text h3{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 5px 0;
+}
+.clss_text p{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: grey;
+    margin-bottom: 3px;
+}
+.clss_text{
+    position: relative;
+    margin-top: 1rem;
+    padding: 0 20px;
+    z-index: -10;
+
+}
+.price{
+    width: 56px;
+    height: 56px;
+    
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: block;
+    position: absolute;
+    top: -1px;
+    right: 30px;
+    line-height: 56px;
+    text-align: center;
+   
+}
+.strn_teg{
+    font-weight: bold;
+    letter-spacing: 0;
+    color: grey;
+}
+#container_timetble{
+    width: 100%;
+    margin: auto;
+    color: white;
+    padding: 100px 0;
+    background-color: black;
+    
+    
+}
+.table{
+    width: 1140px;
+    margin: auto;
+    
+}
+.table_row{
+    width: 100%;
+}
+.table_heading{
+    text-align: center;
+}
+.table_heading h6{
+    font-size:22px ;
+    line-height: inherit;
+    color: grey;
+    margin: 0;
+}
+.table_heading h2{
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    line-height: normal;
+    margin-bottom: 5rem;
+    color: white;
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+}
+.table tr, th, td{
+    border:1px solid rgb(34, 32, 32);
+    padding: 20px 15px;
+    
+    
+}
+.table_dayshedul:nth-child(1){
+    background-color: #F13A12;
+    text-transform: uppercase;
+}
+table tr td:first-child{
+    background-color: #F13A12;
+    width: 100px;
+    font-weight: bold;
+}
+table tr td strong{
+    font-size: 16px;
+    width: 100%;
+    padding: 5px 0;
+    display: inline-block;
+}
+table tr td span{
+    font-size: 14px;
+    color:#a1a1a1;
+    display: block;
+    font-weight: bold;
+}
+.contact_form{
+    width: 1140px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#location_container{
+    width: 100%;
+    padding:100px 0;
+}
+.form{
+   
+    width: 475px;
+
+}
+.form h1{
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+.form input, textarea, button{
+    width: 100%;
+    border:1px solid #d3d3d3;
+
+}
+.form input,button{
+    font-size: 1rem;
+    padding: 20px .75rem;
+    
+}
+.form textarea{
+    padding: 15px .70rem;
+}
+.form button{
+    background-color: #171819;
+    color:white;
+    border-radius: 4px;
+    transition:.5s;
+    
+}
+.form button:hover{
+    background-color:#F13A12 ;
+}
+.map{
+    
+    width: 475px;
+}
+.map h1{
+    font-size: 36px;
+    
+}
+.map .mapform iframe{
+    width: 100%;
+    
+}
+.location_title{
+    width: 390px;
+    padding: 40px 0;
+}
+.location_title .paragraph{
+    font-size: 18px;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+    color:#7a7878;
+    
+}
+.location_title .location_icon i{
+    color:#F13A12;
+}
+#footer{
+    padding: 60px 0;
+    border-top: 1px solid #efebeb;
+    width: 100%;
+}
+.footer_container{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.copyright p{
+    font-size: 16px;
+    color:#757070;
+    padding-bottom: 5px;
+    display: block;
+}
+.copy_contact span{
+    font-size: 16px;
+    color:#757070;
+    padding-left: 20px;
+
+}
+.copy_contact i{
+    color:#f13a11;
+    padding: 0 10px;
+}
+
+
+
+
